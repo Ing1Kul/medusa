@@ -1,0 +1,249 @@
+body { 
+    margin: 0;
+    color: rgb(5, 0, 7);
+    font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;    
+    }
+
+.home {
+    background-image: url(finen.jpg);
+    background-size: cover;
+}
+
+.andresider{
+    background-color: #f5f0ea;
+    font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #3d5a80;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    z-index: 10;
+
+}
+
+.overskrift {
+    text-align: left;
+    font-size: xx-large;
+    letter-spacing: 1px;
+}
+
+.headHome {
+    font-size: small;
+    text-align: right;    
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 0.3rem;
+    margin-right: 7rem; 
+    cursor: pointer;
+    transition: background-color .2s ease;
+}
+
+a.homeLink:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.homeLink:hover { 
+    font-weight: bold;
+    transform: scale(1.03);
+    text-decoration: none;
+}
+
+a.homeLink:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.kodeOver {
+    font-size: x-large;
+    text-align: left;  
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+.center-text {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin-top: 5rem; 
+   }
+
+.vanligtxt {
+    min-height: 100vh;
+    padding-top: 1.5rem;
+    padding-left: 0rem;
+    max-width: 60%;
+    color: rgba(58, 80, 107);
+}
+
+.velkTxt {
+    margin-left: 4rem;
+}
+
+.meny-box{ 
+    padding: 0rem 1rem;
+    margin: 7rem 7.5rem;
+    border-radius: 8px;
+    width: 180px;
+    height: 270px;
+    background-color: rgba(152, 193, 217, 0.85);
+    color: #1b2a49;
+}
+
+.meny-box h3 {
+        margin-bottom: 0rem;
+ }
+
+
+.meny-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.meny-list li {
+    margin: 0.5rem 0;
+    cursor: pointer;
+    padding: 0rem;
+    border-radius: 4px;    
+    transition: background-color .2s ease;
+    }
+
+a.meny-link:link {
+    color: #1b2a49;
+    text-decoration: none;
+}
+
+a.meny-link:hover {
+    color: #1b2a49;
+    font-weight: bold;
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+a.meny-link:visited {
+    color: #1b2a49;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 1rem;
+    background-color: #3d5a80;
+    color: white;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 1px;
+    z-index: 10;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6.5rem;
+}
+
+.footer-cont span {
+    display: inline-block;
+}
+
+.partcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    margin-top: 5rem; 
+   }
+
+.partbox {
+    background-color: #e6c9ca;
+    color: #f5f7fa;
+    padding: 4rem 1rem 1rem 1rem;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    margin-bottom: 7rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+    width: 500px;
+    height: 650px;
+    display: inline-block;
+    border: #d69cac solid 2px;
+}
+
+.papbox {
+    max-width: 80%;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: #c97c91 solid 4px;
+}
+
+.medbox {
+    max-width: 80%;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: #c97c91 solid 4px;
+}
+
+.info-box {
+    gap: 0rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.info-box p {
+    margin: 0.1rem;
+}
+
+.info-list {
+    text-decoration: underline;
+    margin: 0rem 0;
+}
+
+.bingo-box {
+    background-color: #e6c9ca;
+    color: #f5f7fa;
+    padding: 2rem;
+    margin: 3.5rem 7rem 7rem 7rem;
+    border-radius: 8px;
+    border: #d69cac solid 3px;
+}
+
+.bingo-cont {
+    column-count: 3;
+    column-gap: 2rem;
+}
+
+a.GBLink:link {
+    color: #f4f9de;
+    text-decoration: none;
+}
+
+a.GBLink:hover { 
+    font-weight: bold;
+    transform: scale(2.03);
+    text-decoration: none;
+}
+
+a.GBLink:visited {
+    color: #f4f9de;
+    text-decoration: none;
+}
